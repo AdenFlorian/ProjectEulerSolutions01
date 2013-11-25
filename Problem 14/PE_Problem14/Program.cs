@@ -30,7 +30,7 @@ namespace PE_Problem14 {
 					// If even
 					if (curNum % 2 == 0) {
 						curNum = curNum / 2;
-					} else {
+					} else { // If odd
 						curNum = (curNum * 3) + 1;
 					}
 
@@ -45,8 +45,7 @@ namespace PE_Problem14 {
 			}
 
 			Console.WriteLine("Highest number of terms: " + highestCount + " at number " + bestStartNumber);
-
-
+			
 		}
 	}
 }
